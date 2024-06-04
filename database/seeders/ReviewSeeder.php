@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Review;
+use App\Models\Movie;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -14,7 +15,8 @@ class ReviewSeeder extends Seeder
     public function run(): void
     {
         Review::create([
-            'movie' => 'Jojos Bizarre Adventure',
+            'id' => 1,
+            'movie_id' => '1',
             'user' => 'Nasywa Kamila',
             'rating' => '7/10',
             'date' => '20/05/2024',
@@ -22,29 +24,33 @@ class ReviewSeeder extends Seeder
         ]);
 
         Review::create([
-            'movie' => 'Noragami',
+            'id' => 2,
+            'movie_id' => '2',
             'user' => 'Zaenudin Fahmi',
             'rating' => '10/10',
             'date' => '21/05/2024',
         ]);
 
         Review::create([
-            'movie' => 'Wind Breaker',
+            'id' => 3,
+            'movie_id' => '3',
             'user' => 'Niswatun Khasanah',
-            'rating' => '5/10',
-            'date' => '22/05/2024',
+            'rating' => '4/10',
+            'date' => '25/05/2024',
         ]);
 
         Review::create([
-            'movie' => 'Attack On Titan',
-            'user' => 'Dinda',
-            'rating' => '6/10',
-            'date' => '22/05/2024',
+            'id' => 4,
+            'movie_id' => '4',
+            'user' => 'dasd',
+            'rating' => '2/10',
+            'date' => '20/05/2024',
         ]);
 
         Review::create([
-            'movie' => 'Jujutsu Kaisen',
-            'user' => 'Revina',
+            'id' => 5,
+            'movie_id' => '5',
+            'user' => 'Rasasd',
             'rating' => '4/10',
             'date' => '23/05/2024',
         ]);
