@@ -38,16 +38,16 @@ class MovieSeeder extends Seeder
         ]);
         Movie::create([
             'id' => 4,
-            'title' => 'Wind Breaker',
+            'title' => 'Attack of titan',
             'genre_id' => '4',
-            'poster' => 'movie-03.jpg',
+            'poster' => 'movie-04.jpg',
             'synopsis' => 'Haruka Sakura wants nothing to do with weaklings—hes only interested in the strongest of the strong.',
         ]);
         Movie::create([
             'id' => 5,
-            'title' => 'Wind Breaker',
+            'title' => 'Jujutsu Kaisen',
             'genre_id' => '5',
-            'poster' => 'movie-03.jpg',
+            'poster' => 'movie-05.jpg',
             'synopsis' => 'Haruka Sakura wants nothing to do with weaklings—hes only interested in the strongest of the strong.',
         ]);
     }
