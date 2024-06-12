@@ -52,6 +52,6 @@ class GenreController extends Controller
 
         $genre->update($validatedData);
 
-        return redirect('/genres')->with('success', 'Movie updated successfully!');
+        return redirect('/genres')->with('success', 'Genre updated successfully!');
     }
 }

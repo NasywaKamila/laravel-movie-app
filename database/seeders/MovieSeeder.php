@@ -41,14 +41,14 @@ class MovieSeeder extends Seeder
             'title' => 'Attack of titan',
             'genre_id' => '4',
             'poster' => 'movie-04.jpg',
-            'synopsis' => 'Haruka Sakura wants nothing to do with weaklings—hes only interested in the strongest of the strong.',
+            'synopsis' => 'Attack on Titan follows the story of Eren Yeager who lives with his adopted sister, Mikasa Ackerman and his best friend Armin Arlert. They live in Shiganshina District which is adjacent to Wall Maria or the outermost wall of the three circular walls. The three enlisted in the military after their parents were devoured by a Titan and they intended to take revenge.',
         ]);
         Movie::create([
             'id' => 5,
             'title' => 'Jujutsu Kaisen',
             'genre_id' => '5',
             'poster' => 'movie-05.jpg',
-            'synopsis' => 'Haruka Sakura wants nothing to do with weaklings—hes only interested in the strongest of the strong.',
+            'synopsis' => 'Jujutsu Kaisen tells the story of Yuuji Itadori, a talented high school student, who has a strong physique and is suitable for joining the sports club at his school. Instead of joining the sports club, he joined the occult research club. Jujutsu Kaisen synopsis here.',
         ]);
     }
 }
